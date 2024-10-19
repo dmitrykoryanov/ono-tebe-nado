@@ -71,7 +71,7 @@
 }
 
 .cover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cover.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/cover.jpg");
     /*background-image: url("../images/cover.jpg");*/
     /*background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));*/
     /*background-image: url("../images/lotus_flower.jpeg");*/
@@ -191,16 +191,28 @@
     justify-content: space-between;
 }
 
-.aution_item_1 {
-    background-image: url("../images/card-lot-01.jpg");
+.auction_item_1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/card-lot-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-image: url("../images/card-lot-01.jpg");*/
 }
 
-.aution_item_2 {
-    background-image: url("../images/card-lot-02.jpg");
+.auction_item_2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/card-lot-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-image: url("../images/card-lot-02.jpg");*/
 }
 
-.aution_item_3 {
-    background-image: url("../images/card-lot-03.jpg");
+.auction_item_3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/card-lot-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-image: url("../images/card-lot-03.jpg");*/
 }
 
 .auction_item_title {
